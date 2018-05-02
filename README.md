@@ -1,9 +1,10 @@
-# SOLID
->[wiki](https://ru.wikipedia.org/wiki/SOLID_(%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
-
-# Шаблоны проектирования
-пораждающие/структурные/поведенческие/антипаттерны
+# S.O.L.I.D.
+>https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
+# Design Patterns
+Creational/Structural/Behavioral/Antipatterns
+>[Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) / Martin Fowler
 > [DesignPatternsPHP](http://designpatternsphp.readthedocs.io/ru/latest/README.html)
+> https://en.wikipedia.org/wiki/Design_Patterns
 > https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F
 
 # Coupling/Cohesion
@@ -12,38 +13,50 @@
 ### Cohesion
 *Cвязность*, характеристика внутренней взаимосвязи между частями одного модуля, определяет на сколько узко специалезирован модуль, нацелен ли модуль на решение одной, конкретной задачи, Сильная связность - хорошо (модуль выполняет одну функцию, имеет мин. кол интерейфесов)
 
-# Масштабирование приложений
-### Вертикальное
+# Scalability
+### Horizontal
 Увеличение производительности каждого компонента системы с целью повышения общей производительности. Масштабируемость в этом контексте означает возможность заменять в существующей вычислительной системе компоненты более мощными и быстрыми по мере роста требований и развития технологий. Это самый простой способ масштабирования, так как не требует никаких изменений в прикладных программах, работающих на таких системах.
-### Горизонтальное
+### Vertical
 Разбиение системы на более мелкие структурные компоненты и разнесение их по отдельным физическим машинам (или их группам), и (или) увеличение количества серверов, параллельно выполняющих одну и ту же функцию. Масштабируемость в этом контексте означает возможность добавлять к системе новые узлы, серверы, процессоры для увеличения общей производительности. Этот способ масштабирования может требовать внесения изменений в программы, чтобы программы могли в полной мере пользоваться возросшим количеством ресурсов.
-### Примеры
 
->https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B8%D1%80%D1%83%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%8C
+>https://en.wikipedia.org/wiki/Scalability
 # OOP
 >https://en.wikipedia.org/wiki/Object-oriented_programming
 # DDD
-# Особености/Отличия языков программирования
+> https://martinfowler.com/tags/domain%20driven%20design.html
+>[DDD: Tackling Complexity in the Heart of Software](https://www.amazon.com/gp/product/0321125215?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0321125215) / Eric Evans
+> https://github.com/ktlle/ddd-q-ly
+# Programming Languages features and differences
+scripting, functional, multiparadigm languages
 ### php
 ### java
 ### javascript
-и другие :)
+and others... scala, golang
+>https://en.wikipedia.org/wiki/List_of_programming_languages_by_type
 # Concurrency/RaceCondition/Deadlock/CriticalSection
 > http://tutorials.jenkov.com/java-concurrency/race-conditions-and-critical-sections.html
-# Базы данных
-### Объектно-реляционная СУБД
-что такое, примеры
-### Документоориентированная СУБД
-особености, mongodb, noSQL
-### Транзакции, Блокировки
-### Денормализация/Нормализация
+# DB
+### Object-relational Database
+
+### Document-oriented Database
+
+### Transactions, Locks
+### Normalization/Denormalization
+https://en.wikipedia.org/wiki/Database_normalization
+https://en.wikipedia.org/wiki/Denormalization
 ### ActiveRecord
 ### ORM
-
-### TDD
-Дабвить тест -> Запуск тестов, fail ->  Написать код ->  Запуск тестов, success -> Рефакторинг -> Go To Start
->https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D1%87%D0%B5%D1%80%D0%B5%D0%B7_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5
-# Ссылки на почитать
+>https://en.wikipedia.org/wiki/Database
+>https://medium.com/@ifesdjeen
+## TDD
+add test -> start all, fail ->  write code ->  start all, success -> refactoring -> repeat
+>[TDD: By Example](https://www.amazon.co.uk/Test-Driven-Development-Addison-Wesley-Signature/dp/0321146530/ref=pd_sim_b_1) / Kent Beck
+>https://en.wikipedia.org/wiki/Test-driven_development
+# Architecture
+>[Microservices for everyone](https://leanpub.com/microservices-for-everyone/) / Matthias Noback
+>https://twitter.com/unclebobmartin
+>https://martinfowler.com/articles/microservice-trade-offs.html
+# Links
 > [Код с запашком / wikipedia.org](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4_%D1%81_%D0%B7%D0%B0%D0%BF%D0%B0%D1%88%D0%BA%D0%BE%D0%BC)
 > [От STUPID кода к SOLID коду / habr.com](https://habr.com/post/273843/)
 > [developer-roadmap / github.com](https://github.com/kamranahmedse/developer-roadmap)
@@ -53,10 +66,7 @@
 > http://www.1024cores.net/
 > https://github.com/ktlle/ddd-q-ly
 > https://martinfowler.com/
-> https://medium.com/@ifesdjeen /db
 > http://www.phptherightway.com/
 > http://www.phpthewrongway.com/
-> https://martinfowler.com/tags/domain%20driven%20design.html
-> https://martinfowler.com/articles/microservice-trade-offs.html
 > https://habr.com/post/104219/
 
