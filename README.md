@@ -26,6 +26,8 @@ Creational/Structural/Behavioral/Antipatterns
 > https://martinfowler.com/tags/domain%20driven%20design.html
 >[DDD: Tackling Complexity in the Heart of Software](https://www.amazon.com/gp/product/0321125215?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0321125215) / Eric Evans
 > https://github.com/ktlle/ddd-q-ly
+>https://leanpub.com/ddd-in-php/read#leanpub-auto-ddd-and-php-community
+>[Rich domain model with symfony 2.5 and doctrine 2.5](https://www.slideshare.net/_leopro_/rich-domain-model-with-symfony-25-and-doctrine-25)
 # Programming Languages features and differences
 scripting, functional, multiparadigm languages
 ### php
