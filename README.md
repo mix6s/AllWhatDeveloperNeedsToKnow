@@ -63,7 +63,7 @@ add test -> start all, fail ->  write code ->  start all, success -> refactoring
 > [От STUPID кода к SOLID коду / habr.com](https://habr.com/post/273843/)
 > [developer-roadmap / github.com](https://github.com/kamranahmedse/developer-roadmap)
 > [Структуры данных. Неформальный гайд / habr.com](https://habr.com/post/263765/)
-
+> [When to declare classes final](https://ocramius.github.io/blog/when-to-declare-classes-final/)
 
 > http://www.1024cores.net/
 > https://github.com/ktlle/ddd-q-ly
