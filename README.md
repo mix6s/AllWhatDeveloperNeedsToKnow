@@ -59,11 +59,11 @@ add test -> start all, fail ->  write code ->  start all, success -> refactoring
 >https://twitter.com/unclebobmartin
 >https://martinfowler.com/articles/microservice-trade-offs.html
 # Links
-> [Код с запашком / wikipedia.org](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4_%D1%81_%D0%B7%D0%B0%D0%BF%D0%B0%D1%88%D0%BA%D0%BE%D0%BC)
-> [От STUPID кода к SOLID коду / habr.com](https://habr.com/post/273843/)
-> [developer-roadmap / github.com](https://github.com/kamranahmedse/developer-roadmap)
-> [Структуры данных. Неформальный гайд / habr.com](https://habr.com/post/263765/)
-> [When to declare classes final](https://ocramius.github.io/blog/when-to-declare-classes-final/)
+> [Код с запашком / wikipedia.org](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4_%D1%81_%D0%B7%D0%B0%D0%BF%D0%B0%D1%88%D0%BA%D0%BE%D0%BC)\
+> [От STUPID кода к SOLID коду / habr.com](https://habr.com/post/273843/)\
+> [developer-roadmap / github.com](https://github.com/kamranahmedse/developer-roadmap)\
+> [Структуры данных. Неформальный гайд / habr.com](https://habr.com/post/263765/)\
+> [When to declare classes final](https://ocramius.github.io/blog/when-to-declare-classes-final/)\
 
 > http://www.1024cores.net/
 > https://github.com/ktlle/ddd-q-ly
